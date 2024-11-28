@@ -7,23 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Roblox Verify</h1>
-    <p>Total Accounts : <span id="totalaccount">0</span></p>
-    <p>
-        <span id="verifyCount">Verify : 0</span> 🟢 | 
-        <span id="unverifyCount">Not Verify : 0</span> 🟡 | 
-        <span id="bannedCount">Banned : 0</span> 🔴
-    </p>
-    
-    <div>
-        <button onclick="filterData('all')">All</button>
-        <button onclick="filterData('Verify 🟢')">Verify</button>
-        <button onclick="filterData('Not Verify 🟡')">Not Verify</button>
-        <button onclick="filterData('Banned 🔴')">Banned</button>
-    </div>
-
     <table id="customerTable">
         <thead>
+            <h1>Roblox Verify</h1>
+            <p>Total Accounts : <span id="totalaccount">0</span></p>
+            <p>
+                <span id="verifyCount">Verify : 0</span> 🟢 | 
+                <span id="unverifyCount">Not Verify : 0</span> 🟡 | 
+                <span id="bannedCount">Banned : 0</span> 🔴
+            </p>
+            
+            <div>
+                <button onclick="filterData('all')">All</button>
+                <button onclick="filterData('Verify 🟢')">Verify</button>
+                <button onclick="filterData('Not Verify 🟡')">Not Verify</button>
+                <button onclick="filterData('Banned 🔴')">Banned</button>
+            </div>
             <tr>
                 <th>Roblox Accounts</th>
                 <th>Discord Accounts</th>
